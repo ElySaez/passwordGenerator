@@ -1,0 +1,47 @@
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-link i {
+  font-size: 1.5rem;
+}
+
+
+.footer {
+  background: #100133;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer img {
+  height: auto;
+  max-width: 100%;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+  
+  .footer img {
+    margin-bottom: 20px;
+  }
+  
+  .footer a {
+    display: block;
+    margin: 10px auto;
+  }
+}
